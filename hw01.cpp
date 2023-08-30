@@ -27,7 +27,6 @@ int option = 0;
 // sets the size for the array
 const int ARR_SIZE = 10;
 // array for random numbers
-// *note: could have made random assignmet cleaner with a for loop, brute forcing as assignment is already late
 int ranArr[ARR_SIZE] = {rand()%10, rand() % 10, rand() % 10, rand() % 10, rand() % 10, rand() % 10, rand() % 10, rand() % 10, rand() % 10, rand() % 10};
 
 int readArr[ARR_SIZE];
